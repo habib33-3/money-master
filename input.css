@@ -8,7 +8,7 @@
 
 @layer components {
     .input-box {
-        @apply bg-[#DCDCDC] w-48 h-9 ml-4 rounded-sm
+        @apply bg-[#DCDCDC] w-48 h-9 ml-4 rounded-sm p-3
     }
 
     .section-text {
