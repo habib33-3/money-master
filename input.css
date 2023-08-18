@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
+@layer components {
+    .input-box {
+        @apply bg-[#DCDCDC] w-48 h-9 ml-4 rounded-sm
+    }
+}
+
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
 }
