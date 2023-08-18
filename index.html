@@ -26,18 +26,48 @@
       </h1>
     </header>
     <main>
-      <section
-        class="w-3/5 mx-auto bg-[#F8F8F8] flex flex-col justify-center items-center pt-16 pb-10"
-      >
+      <section class="w-3/5 mx-auto bg-[#F8F8F8] px-32 pt-16 pb-10">
         <!-- Income Section Starts -->
         <div>
-          <h2 class="text-black text-2xl font-medium text-center">Income</h2>
-          <p class="mt-7 text-2xl">
+          <h2 class="section-text">Income</h2>
+          <p class="input-title">
             Income
             <input type="number" id="income-input" class="input-box" />
           </p>
         </div>
         <!-- Income Section ends -->
+
+        <!-- Expense Section starts -->
+        <div>
+          <h2 class="section-text mt-8">Expense</h2>
+          <p class="input-title">
+            Food
+            <input type="number" name="" id="food-input" class="input-box" />
+          </p>
+
+          <p class="input-title">
+            Rent
+            <input type="number" name="" id="rent-input" class="input-box" />
+          </p>
+
+          <p class="input-title">
+            Cloth
+            <input type="number" name="" id="cloth-input" class="input-box" />
+          </p>
+
+          <div class="flex items-center justify-center mt-6">
+            <button
+              id="calculate-btn"
+              class="btn btn-primary bg-[#59A5FF] rounded-md  px-14 pb-5 mx-auto border-none block text-white text-xl font-bold"
+            >
+              Calculate
+            </button>
+          </div>
+          <div class="section-text mt-10">
+            Total Expense: <span id="expense-amount">00</span>
+          </div>
+        </div>
+        <!-- Expense Section ends -->
       </section>
     </main>
     <footer></footer>

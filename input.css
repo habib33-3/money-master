@@ -10,6 +10,14 @@
     .input-box {
         @apply bg-[#DCDCDC] w-48 h-9 ml-4 rounded-sm
     }
+
+    .section-text {
+        @apply text-black text-2xl font-medium text-center
+    }
+
+    .input-title {
+        @apply mt-7 text-lg text-center
+    }
 }
 
 .font-montserrat {
